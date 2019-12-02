@@ -1,147 +1,170 @@
-
 /* for big tablets and width upto 1200px */
 @media only screen and (max-width: 1200px) {
     .hero-text {
-        width: 100%;
-        padding: 0 2%;
+      width: 100%;
+      padding: 0 2%;
     }
     .row {
-        padding: 0 2%;
+      padding: 0 2%;
     }
-}
-
-
-/* for small tablet to big tablet 768 to 1023px */
-@media only screen and (max-width: 1023px) {
+  }
+  
+  /* for small tablet to big tablet 768 to 1023px */
+  @media only screen and (max-width: 1023px) {
     body {
-        font-size: 18px;
+      font-size: 18px;
     }
-    
-    section {padding : 60px 0;}
-
+  
+    section {
+      padding: 60px 0;
+    }
+  
     .p-special {
-        width: 80%;
-        margin-left: 10%;
+      width: 80%;
+      margin-left: 10%;
     }
     .icon-big {
-        font-size: 200%;
-        margin: 15px 0;
+      font-size: 200%;
+      margin: 15px 0;
     }
     .steps-box:first-child {
-        margin-top: 10px; 
+      margin-top: 10px;
     }
     .steps-box:last-child {
-        margin-top: 10px;
+      margin-top: 10px;
     }
     .steps {
-        margin-bottom: 40px;
+      margin-bottom: 40px;
     }
     .steps div {
-        padding: 5px;
-        margin-right: 5px;
-        height: 40px;
-        width: 40px;
-        font-size: 120%;
+      padding: 5px;
+      margin-right: 5px;
+      height: 40px;
+      width: 40px;
+      font-size: 120%;
     }
     .steps:last-child {
-        margin-bottom: 60px;
+      margin-bottom: 60px;
     }
     .iphone-image {
-        width: 50%;
+      width: 50%;
     }
     .btn-app img {
-        height: 30px;
-        width: auto;
-        margin: 5px;
+      height: 30px;
+      width: auto;
+      margin: 5px;
     }
-
+  
     .cities-list-icon {
-        font-size: 90%;
-        margin-bottom: -4px;
-        margin-right: 3px;
+      font-size: 90%;
+      margin-bottom: -4px;
+      margin-right: 3px;
     }
     .signup-block .signup-wrapper {
-        width: 100%;
-        margin-left: 0%;
+      width: 100%;
+      margin-left: 0%;
     }
     .price-per-month {
-        font-size: 150%;
-        margin-bottom: 5px;
+      font-size: 150%;
+      margin-bottom: 5px;
     }
     .contact-us-form {
-        width: 80%;
+      width: 80%;
     }
     footer {
-        padding: 30px;
+      padding: 30px;
     }
     .navigation-block li,
-.social-media-block li {
-    margin-right: 5px;
-}
-}
-
-/* for small phone to small tablet 480 to 767px */
-@media only screen and (max-width: 767px) {
-    body {
-        font-size: 16px;
+    .social-media-block li {
+      margin-right: 5px;
     }
-    section {padding : 30px 0;}
+  }
+  
+  /* for small phone to small tablet 480 to 767px */
+  @media only screen and (max-width: 767px) {
+    body {
+      font-size: 16px;
+    }
+    section {
+      padding: 30px 0;
+    }
     .main-nav {
-        display: none;
+      display: none;
+    }
+    .mobile-nav {
+      display: block;
+    }
+    .main-nav {
+      float: left;
+      margin-top: 20px;
+    }
+    .main-nav li {
+      display: block;
+      margin-top: 5px;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited {
+      padding-bottom: 5px;
+    }
+    .sticky .mobile-nav ion-icon {
+      color: #555;
+      margin-top: 5px;
     }
     .col {
-        width: 100%;
-        margin: 0 0 4% 0;
+      width: 100%;
+      margin: 0 0 4% 0;
     }
     .p-special {
-        width: 100%;
-        margin-left: 0;
+      width: 100%;
+      margin-left: 0;
     }
     .icon-big {
-        font-size: 150%;
-        margin: 10px 0;
+      font-size: 150%;
+      margin: 10px 0;
     }
     .steps-box:first-child {
-        margin-top: 5px; 
-        text-align: center;
+      margin-top: 5px;
+      text-align: center;
     }
     .steps-box:last-child {
-        margin-top: 5px;
+      margin-top: 5px;
     }
     .steps {
-        margin-bottom: 20px;
+      margin-bottom: 20px;
     }
     .steps div {
-        padding: 5px;
-        margin-right: 5px;
-        height: 30px;
-        width: 30px;
-        font-size: 90%;
+      padding: 5px;
+      margin-right: 5px;
+      height: 30px;
+      width: 30px;
+      font-size: 90%;
     }
     .steps:last-child {
-        margin-bottom: 60px;
+      margin-bottom: 60px;
     }
     .iphone-image {
-        width: 40%;
+      width: 40%;
     }
     .contact-us-form {
-        width: 100%;
+      width: 100%;
     }
     footer {
-        padding: 15px;
+      padding: 15px;
     }
     .navigation-block {
-        float: none;
+      float: none;
     }
     .social-media-block {
-        float: none;
+      float: none;
     }
-}
-
-/* for small mobile phone 0 to 480px */
-@media only screen and (max-width: 480px) {
-    section {padding : 25px 0;}
+  }
+  
+  /* for small mobile phone 0 to 480px */
+  @media only screen and (max-width: 480px) {
+    section {
+      padding: 25px 0;
+    }
     .contact-us-form {
-        width: 100%;
+      width: 100%;
     }
-}
+  }
